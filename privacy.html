@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Политика конфиденциальности</title>
+  <meta name="description" content="Как приложение AI agent использует доступ к Google Диску владельца.">
+  <style>
+    :root { --bg: #f8fafc; --card: #ffffff; --text: #0f172a; --muted: #475569; --line: #e2e8f0; --accent: #4f46e5; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0b1120; --card: #111827; --text: #e5e7eb; --muted: #9ca3af; --line: #1f2937; --accent: #818cf8; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 4px; }
+    h2 { font-size: 18px; margin: 28px 0 8px; }
+    p, li { color: var(--muted); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .date { font-size: 14px; }
+    .en { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
+    footer { margin-top: 24px; font-size: 14px; color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Политика конфиденциальности</h1>
+    <p class="date">Приложение «AI agent — помощник студента». Действует с 9 ноября 2026 г.</p>
+
+    <h2>Кто пользуется</h2>
+    <p>Приложение личное: им пользуется только его владелец. Других пользователей, регистрации и рекламы нет.</p>
+
+    <h2>Какие данные Google используются</h2>
+    <ul>
+      <li>Файлы и папки в Google Диске владельца, которые создаёт само приложение: папка «Умный Помощник Студента»
+        с резервными копиями и файлами учебной библиотеки (названия, расположение, ссылки на файлы).</li>
+      <li>Имя и адрес аккаунта Google, а также занятое место на Диске — чтобы показать владельцу, к какому Диску
+        подключено приложение.</li>
+    </ul>
+
+    <h2>Зачем</h2>
+    <ul>
+      <li>Сохранять резервные копии данных приложения и проверять, что их можно восстановить.</li>
+      <li>Раскладывать учебные файлы владельца по папкам предметов и занятий.</li>
+    </ul>
+
+    <h2>Чего приложение не делает</h2>
+    <ul>
+      <li>Не передаёт и не продаёт данные, полученные от Google, третьим лицам.</li>
+      <li>Не использует их для рекламы и для обучения моделей искусственного интеллекта, не отправляет их во внешние
+        нейросетевые сервисы.</li>
+      <li>Не трогает файлы Диска вне своей папки.</li>
+    </ul>
+    <p>Использование данных, полученных через API Google, соответствует
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+      включая требования Limited Use.</p>
+
+    <h2>Хранение и удаление</h2>
+    <p>Ключ доступа к Диску хранится только на личном сервере владельца, закрытом от интернета. Отозвать доступ можно
+      в любой момент на странице <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>;
+      файлы в папке приложения остаются на Диске владельца, и он может удалить их сам.</p>
+
+    <div class="en">
+      <h2>In English</h2>
+      <p><b>AI agent</b> is a personal study assistant used by its owner only. It accesses the owner's Google Drive only to
+        store and verify backups of its own data and to organize the owner's study files in a folder the app creates
+        («Умный Помощник Студента»); it also reads the account name, email and storage usage to show which Drive is
+        connected. Data obtained from Google APIs is not shared or sold, not used for advertising, not sent to external
+        AI services and not used to train AI models. Use of such data complies with the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+        including the Limited Use requirements. The access token is stored only on the owner's private server. Access
+        can be revoked at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+    </div>
+  </div>
+  <footer><a href="index.html">← На главную / Home</a></footer>
+</main>
+</body>
+</html>

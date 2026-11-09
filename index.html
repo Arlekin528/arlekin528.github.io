@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI agent — помощник студента</title>
+  <meta name="description" content="Личный помощник студента: расписание, задания и учебные материалы. Резервные копии — в Google Диск владельца.">
+  <style>
+    :root { --bg: #f8fafc; --card: #ffffff; --text: #0f172a; --muted: #475569; --line: #e2e8f0; --accent: #4f46e5; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0b1120; --card: #111827; --text: #e5e7eb; --muted: #9ca3af; --line: #1f2937; --accent: #818cf8; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; }
+    h2 { font-size: 18px; margin: 28px 0 8px; }
+    p, li { color: var(--muted); }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    .en { margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
+    footer { margin-top: 24px; font-size: 14px; color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>AI agent — помощник студента</h1>
+    <p>Личное приложение одного студента для учёбы. Им пользуется только владелец; регистрации и доступа для других людей нет.</p>
+
+    <h2>Что делает</h2>
+    <ul>
+      <li>Держит в одном месте расписание, задания и учебные материалы по предметам.</li>
+      <li>Собирает конспекты занятий из фотографий и файлов.</li>
+      <li>Сохраняет резервные копии своих данных и файлы учебной библиотеки в Google Диск владельца —
+        в папку, которую создаёт само приложение.</li>
+    </ul>
+
+    <h2>Доступ к Google Диску</h2>
+    <p>Приложение работает только с Google Диском своего владельца и только для резервных копий и файлов учебной
+      библиотеки. Подробно — в <a href="privacy.html">политике конфиденциальности</a>.</p>
+
+    <div class="en">
+      <h2>In English</h2>
+      <p><b>AI agent</b> is a personal study assistant used by its owner only (no other users). It keeps the owner's
+        class schedule, assignments and study materials, and stores backups and library files in the owner's own
+        Google Drive, in a folder the app creates. See the <a href="privacy.html">privacy policy</a>.</p>
+    </div>
+  </div>
+  <footer><a href="privacy.html">Политика конфиденциальности / Privacy policy</a></footer>
+</main>
+</body>
+</html>
